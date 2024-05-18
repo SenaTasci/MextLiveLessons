@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spovify.Domain", "Spovify.Domain\Spovify.Domain.csproj", "{402FD3D8-F275-49F6-8B12-20F70212C8CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spovify.Presentation", "Spovify.Presentation\Spovify.Presentation.csproj", "{F6E8A646-107A-47A1-812F-13EA994DC4F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{402FD3D8-F275-49F6-8B12-20F70212C8CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402FD3D8-F275-49F6-8B12-20F70212C8CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402FD3D8-F275-49F6-8B12-20F70212C8CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402FD3D8-F275-49F6-8B12-20F70212C8CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E8A646-107A-47A1-812F-13EA994DC4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E8A646-107A-47A1-812F-13EA994DC4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E8A646-107A-47A1-812F-13EA994DC4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E8A646-107A-47A1-812F-13EA994DC4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD6C6137-D5BC-4DD1-91E6-B12274C875EB}
+	EndGlobalSection
+EndGlobal
