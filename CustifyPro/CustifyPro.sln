@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34408.163
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custify.Domain", "Custify.Domain\Custify.Domain.csproj", "{81A85767-7406-4510-82E5-29E4F0A14737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Custify.API", "Custify.API\Custify.API.csproj", "{644ADA01-99CF-43E4-9E96-7A8CA5192349}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81A85767-7406-4510-82E5-29E4F0A14737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A85767-7406-4510-82E5-29E4F0A14737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A85767-7406-4510-82E5-29E4F0A14737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A85767-7406-4510-82E5-29E4F0A14737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{644ADA01-99CF-43E4-9E96-7A8CA5192349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{644ADA01-99CF-43E4-9E96-7A8CA5192349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{644ADA01-99CF-43E4-9E96-7A8CA5192349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{644ADA01-99CF-43E4-9E96-7A8CA5192349}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54B03CC4-A6C9-499F-A8FB-700DF516F3BA}
+	EndGlobalSection
+EndGlobal
