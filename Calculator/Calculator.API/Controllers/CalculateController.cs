@@ -34,7 +34,7 @@ public class CalculateController : ControllerBase
 
     [HttpGet("[action]")]
     public ActionResult<string> Divide(double number1, double number2)
-    { 
+    {
 
         if (number2 == 0)
         {
@@ -42,7 +42,7 @@ public class CalculateController : ControllerBase
         }
 
         calculationServices.DivideCalculation(number1, number2, Operations.Divide);
-        return Ok();    
+        return Ok();
     }
 
 
@@ -52,5 +52,15 @@ public class CalculateController : ControllerBase
         //calculation.Id = Guid.NewGuid();
         return calculationServices.GetCalculations();
     }
+
+    [HttpDelete("[action]")]
+
+    public void Delete(Guid id)
+    {
+    
+    calculationServices.Delete(id);
+    
+    }
+    
 }
 

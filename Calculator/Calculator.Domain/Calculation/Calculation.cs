@@ -9,7 +9,7 @@ namespace Calculator.Domain.Calculation
 {
     public class CalculationBase
     {
-        public string Id { get; set; }
+        public Guid Id { get; set; }
         public Operations Operation { get; set; }
         public double Result { get; set; }
 

@@ -18,7 +18,7 @@ namespace Calculator.Domain.Calculation
 
             Calculation calculation = new Calculation
             {
-                Id = Guid.NewGuid().ToString(),
+                Id = Guid.NewGuid(),
                 Number1 = number1,
                 Number2 = number2,
                 Operation = operation,
@@ -34,7 +34,7 @@ namespace Calculator.Domain.Calculation
 
             Calculation calculation = new Calculation
             {
-                Id = Guid.NewGuid().ToString(),
+                Id = Guid.NewGuid(),
                 Number1 = number1,
                 Number2 = number2,
                 Operation = operation,
@@ -50,7 +50,7 @@ namespace Calculator.Domain.Calculation
 
             Calculation calculation = new Calculation
             {
-                Id = Guid.NewGuid().ToString(),
+                Id = Guid.NewGuid(),
                 Number1 = number1,
                 Number2 = number2,
                 Operation = operation,
@@ -66,7 +66,7 @@ namespace Calculator.Domain.Calculation
 
             Calculation calculation = new Calculation
             {
-                Id = Guid.NewGuid().ToString(),
+                Id = Guid.NewGuid(),
                 Number1 = number1,
                 Number2 = number2,
                 Operation = operation,
@@ -81,5 +81,18 @@ namespace Calculator.Domain.Calculation
             return calculations; 
         }
 
+
+        public void Delete(Guid id)
+        {
+           foreach (var calculation in calculations)
+            
+            {
+                if (calculation.Id == id)
+                {
+                    calculations.Remove(calculation);
+                    break;
+                }
+            }             
+        }
     }
 }
